@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebTests">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebTests</output-path>
+    <root id="archive" name="WebTests.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebTests" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.0.6-bin.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="WebTests/web/Web" />
+    </root>
+  </artifact>
+</component>
